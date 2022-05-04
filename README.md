@@ -5,3 +5,4 @@ https://thearcade-7889e-default-rtdb.firebaseio.com/
 
 # To-Do
 - Figure out Firebase for our website database (signup-submit.php)
+- Design for site needs an edit (arcade.css)
