@@ -41,7 +41,7 @@
             <select name ="favorite-console">
                 <option value="Playstation">Playstation</option>
                 <option value="Xbox">Xbox</option>
-				<option value="Nintendo">Nintendo</option>
+		<option value="Nintendo">Nintendo</option>
                 <option value="PC">PC</option>
             </select>
             <br>
