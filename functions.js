@@ -1,8 +1,13 @@
-import { initializeApp } from 'firebase/app';
+var database = firebase.database();
 
-// TODO: Replace the following with your app's Firebase project configuration
-const firebaseConfig = {
-    //...
-};
+function writeUserData(email,username,password,gender,favorite_console) {
+    firebase.database().ref('users/' + username).set({
+      username: username,
+      email: email,
+      password: password,
+      gender: gender,
+      favorite_console: favorite_console
+    });
+  }
+  
 
-const app = initializeApp(firebaseConfig);
