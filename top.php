@@ -12,6 +12,7 @@
 		<meta charset="utf-8" />
 		
 		<!-- instructor-provided CSS and JavaScript links; do not modify -->
+		<script type="module" src="/index.js"></script>
 		<link href="" type="image/gif" rel="shortcut icon" />
 		<link href="arcade.css" type="text/css" rel="stylesheet" />
 	</head>
