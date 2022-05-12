@@ -165,3 +165,11 @@ a{
 .rd_left{
 	float: left;
 }
+
+.game_list img {
+	float: left;
+	width: 50%;
+	height: 50%;
+	border: solid gray;
+	margin: 20px;
+}
