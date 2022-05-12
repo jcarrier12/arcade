@@ -1,16 +1,17 @@
 <?php include("top.php"); ?>
 
-<link href = "arcade.css" rel = "stylesheet" />
+<link href = "arcade.css" rel = "stylesheet"/>
 
 <div class = "head">
      	<h1><strong>The Arcade</strong></h1>
-	<h2> Your one place for discussions regarding gaming... from today's popular games to the newst games releasing!</h2>
+	<h2> Your one place for discussions regarding gaming... from today's popular games to the newest games releasing!</h2>
 </div>
 
+</br>
 <hr>
 
 <div class = "home_body">
-	<h3><strong>Top 5 Featured Forums</strong><h3>
+	<h3><strong>Top 6 Featured Forums</strong><h3>
 	<div class = "featured_forums">
 		<ul>
 			<a href="forum.php?=fortnite">
@@ -39,7 +40,8 @@
 			
 		</ul>
 	</div>
-	
+		
+	</br>
 	<hr>
 	
 	<div class = "popular_post">
