@@ -10,7 +10,7 @@
 <hr>
 
 <div class = "home_body">
-	<<h3><strong>Popular Post of the Day</strong><h3>
+	<<h3><strong>Top 5 Featured Forums</strong><h3>
 	<div class = "featured_forums">
 		<ul>
 			<a href="forum.php?=fortnite">
