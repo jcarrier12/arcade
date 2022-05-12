@@ -166,11 +166,11 @@ home_body.rd_left{
 	float: left;
 }
 
-#head h1{
+.head h1{
 	font-size: 20pt;
 }
 
-#head h2 {
+.head h2 {
 	font-size: 13pt;
 }
 
