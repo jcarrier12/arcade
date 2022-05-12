@@ -29,7 +29,6 @@
 			
 			<a href="forum.php?=minecraft">
 				<img src="images/minecraft.jpg" alt="icon" />
-				Minecraft
 			</a>
 		
 	
