@@ -168,7 +168,8 @@ home_body.rd_left{
 }
 
 .head strong{
-	font-size: 20pt;
+	font-size: 35pt;
+	text-color: purple;
 }
 
 .game_list img {
