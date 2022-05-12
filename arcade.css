@@ -149,7 +149,7 @@ home_body.ff_left{
 	float: left;
 }
 
-.pp_right{
+home_body.popular_post.pp_right{
 	float: right;
 }
 
