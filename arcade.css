@@ -12,13 +12,12 @@ a{
 	text-decoration: none;
 	color: black;
 }
-.navbar a:hover{
+#navbar a:hover{
 	background-color: #CED4DB;
 	border-radius: 25px;
 }
 
-.navbar{
-	position: relative;
+#navbar{
 	overflow: hidden;
 	background-color: #979EA8;
 	border-radius: 25px;
@@ -69,3 +68,46 @@ a{
 	border: none;
 }
 
+.sticky{
+	position: fixed;
+}
+
+.profile_body{
+	height: 500px;
+	border-style: solid;
+	margin-top: 50px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.profile_pic_body{
+	float: left;
+	height: 100%;
+}
+.profile_pic h1{
+	padding-top: 20px;
+}
+.profile_pic{
+	width: 462px;
+}
+.profile_pic img{
+	float: left;
+	width: 50%;
+	height: 50%;
+	border: solid gray;
+	margin: 20px;
+}
+#bio{
+	float:right;
+}
+#bio h1{
+	text-align: center;
+}
+#bio p{
+	height: 100px;
+	width: 100px;
+	margin: 20px;
+	border: solid gray;
+}
+#bio h2{
+	text-align: center;
+}

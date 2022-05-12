@@ -17,10 +17,21 @@
 	</head>
 
 	<body>
-		<div class = "navbar">
+		<div id = "navbar">
 			<a class = "navB" href = "home.php">Home</a>
-			<a class = "navB" href = "mostpop.php">Most Popular</a>
-			<a class = "navB" href = "profile.php">Profile</a>
+			<a class = "navB" href = "populargames.php">Most Popular</a>
+			<?php
+				if($logged){
+					?>
+					<a class = "navB" href = "profile.php">Profile</a>
+					<?php
+				}
+				else{
+					?>
+					<a class = "navB" href = "login.php">Profile</a>
+					<?php
+				}
+			?>
 			<?php
 				if($logged == true){
 					?>
