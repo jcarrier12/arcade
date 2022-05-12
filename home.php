@@ -29,7 +29,7 @@
 	<div class = "release_dates">
 	<p><strong>15 Upcoming Games</strong></p>
 	<p>Click a Title!</p>
-	
+	<!--Need to add trailer links from youtube-->
 	<p>-<a href = "" title="trailer" >Gotham Knights - October 25, 2022</a></p>
 	<p>-<a href = "" title="trailer" >Hogwart's Legacy - December 2022</a></p>
 	<p>-<a href = "" title="trailer" >God of War Ragnarök - TBD 2022</a></p>
