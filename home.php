@@ -7,8 +7,8 @@
 	<h2> Your one place for discussions regarding gaming... from today's popular games to the newest games releasing!</h2>
 </div>
 
-</br>
-<hr>
+	</br>
+	<hr>
 
 <div class = "home_body">
 	<h3><strong>Top 6 Featured Forums</strong><h3>
