@@ -7,66 +7,46 @@
 
 <div class = "game_list">
 	<ul>
-		<li>
 			<a href="forum.php?=fortnite">
 				<img src="images/fortnite.jpg" alt="icon" />
 			</a>
-		</li>
 		
-		<li>
 			<a href="forum.php?=callofduty">
 				<img src="images/cod_warzone.jpg" alt="icon" />
 			</a>
-		</li>
 		
-		<li>
 			<a href="forum.php?=pubg">
 				<img src="images/pubg.jpg" alt="icon" />
 			</a>
-		</li>
-		
-		<li>
+
 			<a href="forum.php?=forza5">
 				<img src="images/forza5.jpg" alt="icon" />
 			</a>
-		</li>
 		
-		<ul>
-		<li>
 			<a href="forum.php?=csgo">
 				<img src="images/csgo.jpg" alt="icon" />
 			</a>
-		</li>
-		
-		<li>
+			
 			<a href="forum.php?=minecraft">
 				<img src="images/minecraft.jpg" alt="icon" />
 				Minecraft
 			</a>
-		</li>
 		
-		<li>
+	
 			<a href="forum.php?=reddead2">
 				<img src="images/reddead2.jpg" alt="icon" />
 			</a>
-		</li>
 		
-		<li>
+		
 			<a href="forum.php?=eldenring">
 				<img src="images/elden-ring.jpg" alt="icon" />
 			</a>
-		</li>
 		
-		<li>
 			<a href="forum.php?=gtav">
 				<img src="images/gtav.jpg" alt="icon" />
 			</a>
-		</li>
-		
-		<li>
 			<a href="forum.php?=fifa22">
 				<img src="images/fifa22.jpg" alt="icon" />
 			</a>
-		</li>
 	</ul>
 </div>
