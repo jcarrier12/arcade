@@ -7,7 +7,6 @@
 	<h2> Your one place for discussions regarding gaming... from today's popular games to the newest games releasing!</h2>
 </div>
 
-	</br>
 	<hr>
 
 <div class = "home_body">
