@@ -166,3 +166,10 @@ a{
 }
 
 
+.game_list img {
+	float: left;
+	width: 250px;
+	height: 250px;
+	border: solid gray;
+	margin: 20px;
+}

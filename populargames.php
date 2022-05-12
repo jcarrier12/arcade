@@ -59,7 +59,7 @@
 		
 		<li>
 			<a href="forum.php?=eldenring">
-				<img src="images/eldenring.jpg" alt="icon" />
+				<img src="images/elden-ring.jpg" alt="icon" />
 				Elden Ring
 			</a>
 		</li>
