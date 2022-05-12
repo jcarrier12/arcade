@@ -174,11 +174,6 @@ head h2 {
 	font-size: 13pt;
 }
 
-.game_list{
-	height: 800px;
-	width: 100px;
-}
-
 .game_list img {
 	float: left;
 	width: 250px;
