@@ -167,12 +167,10 @@ home_body.rd_left{
 	float: left;
 }
 
-.head h1{
-	font-size: 20pt;
-}
-
-.head h2 {
-	font-size: 13pt;
+.head strong{
+	font-size: 50pt;
+	color: purple;
+	text-align: center;
 }
 
 .game_list img {
@@ -182,6 +180,7 @@ home_body.rd_left{
 	border: solid gray;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	margin: right;
 }
 
 .forum_banner{
