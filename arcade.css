@@ -149,7 +149,7 @@ home_body.ff_left{
 	float: left;
 }
 
-home_body.pp_right{
+.pp_right{
 	float: right;
 }
 
