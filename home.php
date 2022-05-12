@@ -31,6 +31,7 @@
 				</ul>	
 				
 			</div>
+		</div>
 	</div>
 	
 	<hr>
@@ -39,9 +40,10 @@
 		<div class = "pp_right">
 		<h3><strong>Popular Post of the Day</strong><h3>
 		</div>
-			<div class = "pp_left"
-			<!--We need a random post here-->
-			</div>
+			
+		<div class = "pp_left"
+		<!--We need a random post here-->
+		</div>
 	</div>
 	
 	<hr>
