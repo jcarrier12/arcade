@@ -95,3 +95,5 @@
 		</a>
 	</ul>
 </div>
+
+<?php include ("bottom.html"); ?>
