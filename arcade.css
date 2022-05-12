@@ -226,14 +226,36 @@ home_body.rd_left{
 	margin: 30px;
 	display: flex;
 	flex-direction: column;
-	
+	min-height: 200px;	
 }
 .post_main_text{
 	margin: 10px;
+	width:inherit;
 }
 
 .post_main_body h1{
 	font-size: small;
+}
+.content{
+	flex: 1;
+	width: inherit;
+	white-space: normal;
+}
+
+.comment_area{
+	margin: 30px;
+}
+
+.comment{
+	width: 100%;
+}
+.comment_area input[type = "submit"]{
+	color: white;
+	background-color: grey;
+	border-radius: 25px;
+	font-size: small;
+	width: 100px;
+	margin-top: 20px;
 }
 
 
