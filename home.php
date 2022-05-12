@@ -13,7 +13,7 @@
 	<div class = "featured_forums">
 		<div class = "ff_right">
 		<h3><strong>Top 3 Featured Forums</strong></h3>
-		
+		</div>
 			<div class = "ff_left">	
 			
 				<ul>
@@ -31,7 +31,6 @@
 				</ul>	
 				
 			</div>
-		</div>
 	</div>
 	
 	<hr>
@@ -39,10 +38,10 @@
 	<div class = "popular_post">
 		<div class = "pp_right">
 		<h3><strong>Popular Post of the Day</strong><h3>
+		</div>
 			<div class = "pp_left"
 			<!--We need a random post here-->
 			</div>
-		</div>
 	</div>
 	
 	<hr>
@@ -50,6 +49,7 @@
 	<div class = "release_dates">
 		<div class = "rd_right">
 		<p><strong>15 Upcoming Games</strong></p>
+		</div>
 		<p>Click a Title!</p>
 			<div class = "rd_left"
 				<p>-<a href = "https://www.youtube.com/watch?v=IhVf_3TeTQE" title="trailer" >Gotham Knights - October 25, 2022</a></p>
@@ -68,7 +68,6 @@
 				<p>-<a href = "https://www.youtube.com/watch?v=zO9hRBRmPi8" title="trailer" >The Witcher 4 - TBD</a></p>
 				<p>-<a href = "https://www.youtube.com/watch?v=mcm_dfhnP8Q" title="trailer" >Kingdom Hearts 4 - TBD</a></p>
 			</div>
-		</div>
 	</div>
 </div>
 
