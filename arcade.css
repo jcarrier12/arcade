@@ -4,25 +4,26 @@ You should link to this provided stylesheet from all of your pages.
 You should not need to modify this file.  Your pages should work with it as-is.
 */
 
-* {
+*{
 	font-size: 12pt;
 	font-family: "Verdana", "Geneva", sans-serif;
 	background-color: #161b22;
+	color: white;
 }
 a{
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 #navbar a:hover{
-	background-color: #CED4DB;
+	background-color: purple;
 	border-radius: 25px;
 }
 
 #navbar{
 	overflow: hidden;
-	background-color: #979EA8;
+	background-color: #161b22;
 	border-radius: 25px;
-	border: 2px solid #3f3f3f;
+	border: 2px solid purple;
 	width: 100%;
 }
 .navCorner{
@@ -75,10 +76,8 @@ a{
 
 .profile_body{
 	height: 500px;
-	border-style: solid;
 	margin-top: 50px;
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 200px;
 }
 .profile_pic_body{
 	float: left;
@@ -99,7 +98,7 @@ a{
 }
 #bio{
 	float:right;
-	padding-right: 30px;
+	margin-right: 200px;
 }
 #bio h1{
 	text-align: center;
@@ -165,3 +164,5 @@ a{
 .rd_left{
 	float: left;
 }
+
+
