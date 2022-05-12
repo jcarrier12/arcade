@@ -14,6 +14,10 @@
     $top3 = $_GET["post_3"];
     $top3_user = $_GET["post_3_user"];
     $top3_title = $_GET["post_3_title"];
+    $usernames = array($top1_user, $top2_user, $top3_user);
+    $titles = array($top2_title, $top2_title, $top3_title);
+    $texts = array($top1, $top2, $top3);
+
     include("top.php");
 ?>
 <div class = "forum_banner">
@@ -22,30 +26,28 @@
             <h1><?=$forum_name?></h1>
         </div>
     </div>
-    <div class = "follow_button">
-        <?php
-        //code to see if user is logged in, if follows forum, or if does not follow forum
-        //we have limited time so for now lets just not implement this
-        ?>
-    </div>
-
 </div>
 <!-- this is a div to contain all the post that will be featured on the forum page -->
-<div class = "top_post_body">
-    <div class = "post_body">
-        <div class = "user">
-            <!-- here will go user profile picture and username
-            will float to the left in the post_body -->
-        </div>
-        <div class = "post_title">
-           <h1><?=$top1_title?></h1> 
-        </div>
-        <div class = "post_text">
-            <p><?=$top1?></p>
-        </div>
-    </div>
-</div>
 
+<?php
+    for($i = 0; $i < 3; $i++){
+        ?>
+        <div class = "top_post_body">
+            <div class = "post_body">
+                <div id = "username">
+                    <h1><?=$usernames[$i]?></h1>
+                </div>
+                <div class = "post_title">
+                    <h1><?$titles[$i]?></h1>
+                </div>
+                <div class = "post_text">
+                    <p><?=$texts[$i]?></p>
+                </div>
+            </div>
+        </div>
+        <?php
+    }
+?>
 
 
 

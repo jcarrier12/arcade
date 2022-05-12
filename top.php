@@ -10,8 +10,7 @@
 		<title>Arcade</title>
 		
 		<meta charset="utf-8" />
-		
-		<!-- instructor-provided CSS and JavaScript links; do not modify -->
+		<script src = "functions.js" type = "text/javascript"></script>
 		<script type="module" src="/index.js"></script>
 		<link href="" type="image/gif" rel="shortcut icon" />
 		<link href="arcade.css" type="text/css" rel="stylesheet" />
