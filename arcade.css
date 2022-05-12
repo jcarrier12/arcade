@@ -168,8 +168,8 @@ a{
 
 .game_list img {
 	float: left;
-	width: 50%;
-	height: 50%;
+	width: 25%;
+	height: 25%;
 	border: solid gray;
 	margin: 20px;
 }
