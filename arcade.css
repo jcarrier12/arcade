@@ -141,15 +141,8 @@ a{
 .contact strong{
 	font-size: 8pt;
 }
-home_body.ff_right{
-	float: right;
-}
 
-home_body.ff_left {
-	float: left;
-}
-
-.ff_left img {
+.featured_forums img {
 	float: left;
 	width: 250px;
 	height: 250px;
