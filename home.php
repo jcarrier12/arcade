@@ -2,8 +2,10 @@
 
 <link href = "arcade.css" rel = "stylesheet" />
 
-<h1> The Arcade </h1>
-<h2> Your one place for discussions regarding gaming</h2>
+<div class = "head">
+     	<h1><strong>The Arcade</strong></h1>
+	<h2> Your one place for discussions regarding gaming</h2>
+</div>
 
 <div class = "home_body">
 	<div class = "featured_forums">
