@@ -5,6 +5,8 @@
 <h1><strong>These are 10 of some of most popular games today!<strong></h1>
 <h2><strong>Click on one of the games below to enter the game's discussion forum<strong></h2>
 
+<hr>
+
 <div class = "game_list">
 	<ul>
 		<a href="forum.php?=fortnite">
