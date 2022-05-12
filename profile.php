@@ -11,13 +11,11 @@
 <div class = "profile_body">
         <div class = "profile_pic_body">
             <div class = "profile_pic">
-                <img src = "images/cod_warzone.jpg" alt = "Profile picture">
+                <img src = "images/sal.jpg" alt = "Profile picture">
                 <h1>Wario158</h1>
             </div>
         </div>
         <div id = "bio">
-            <h1>Bio</h1>
-            <p id = "bio_text">absdkjhbnajdnjksahndkljabndjakdshsakjlhdljkajhskoldjakl</p>
             <h2>Gender: male</h2>
             <h2>Favorite Game: Minecraft</h2>
             <h2>Favorite Console: Playstation</h2>   

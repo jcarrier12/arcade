@@ -25,6 +25,18 @@
 </section>
 <!-- this is a div to contain all the post that will be featured on the forum page -->
 
+<div class = "comment_area">
+        <form action = ""> 
+            <input type = "text" id>
+            <textarea class = "comment"> Type your comment here</textarea>
+            </br>
+
+            <input type = "submit" name = "comment" />
+            
+        </form>
+    </div>
+
+
 <?php
     for($i = 0; $i < 3; $i++){
         ?>

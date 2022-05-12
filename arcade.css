@@ -257,4 +257,22 @@ home_body.rd_left{
 	margin-top: 20px;
 }
 
+.comment_body{
+	margin: 30px;
+	border: solid purple;
+	border-radius: 25px;
+	overflow: hidden;
+}
+
+#commenter{
+	margin: 10px;
+}
+
+#comment_text section{
+	margin: 10px;
+}
+
+
+
+
 

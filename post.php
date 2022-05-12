@@ -14,7 +14,7 @@
         </div>
     </div>
     <div class = "comment_area">
-        <form>
+        <form action = ""> 
             <textarea class = "comment"> Type your comment here</textarea>
 
             </br>
@@ -22,6 +22,22 @@
             <input type = "submit" name = "comment" />
         </form>
     </div>
+
+    <?php
+    for($i = 0; $i < 10; $i++){
+        ?>
+        <div class = "comment_body">
+            <div id = "commenter">
+                <h1>username</h1>
+            </div>
+            <div id = "comment_text">
+                <section>asdoakdmlaknd adsnalsdnajds d as d ad s ad a d as s d as d a d s da d  adsd aljnda das ndknjlkdnaskjda djsadnaksj  asjkdnkjsa d ajksdakj dkas dkajsndja dka kdsj ak daj sj a dska daj d ajsdk ak dakj sdajas djka sdk ajkdas s</section>
+            </div>
+        </div>
+        <?php
+    }
+
+    ?>
 </div>
 
 
