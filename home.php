@@ -11,27 +11,19 @@
 
 <div class = "home_body">
 	<div class = "featured_forums">
-		<div class = "ff_right">
-		<h3><strong>Top 3 Featured Forums</strong></h3>
-		</div>
-			<div class = "ff_left">	
-			
-				<ul>
-				<a href="forum.php?=fortnite">
-				<img src="images/fortnite.jpg" alt="icon" />
-				</a>
+		<ul>
+			<a href="forum.php?=fortnite">
+			<img src="images/fortnite.jpg" alt="icon" />
+			</a>
 		
-				<a href="forum.php?=callofduty">
-				<img src="images/cod_warzone.jpg" alt="icon" />
-				</a>
+			<a href="forum.php?=callofduty">
+			<img src="images/cod_warzone.jpg" alt="icon" />
+			</a>
 		
-				<a href="forum.php?=minecraft">
-				<img src="images/minecraft.jpg" alt="icon" />
-				</a>
-				</ul>	
-				
-			</div>
-		</div>
+			<a href="forum.php?=minecraft">
+			<img src="images/minecraft.jpg" alt="icon" />
+			</a>
+		<ul>
 	</div>
 	
 	<hr>
