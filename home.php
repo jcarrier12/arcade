@@ -34,8 +34,9 @@
 			</a>
 		
 			<a href="forum.php?=fifa22">
-			<img src="images/fifa22.jpg" alt="icon" />
+			<img src="images/fifa22.jpg" id = "fifa" alt="icon" />
 			</a>
+			
 		</ul>
 	</div>
 	
