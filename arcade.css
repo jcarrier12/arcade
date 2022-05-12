@@ -145,15 +145,23 @@ home_body.ff_right{
 	float: right;
 }
 
-home_body.ff_left{
+home_body.ff_left {
 	float: left;
+}
+
+home_body.ff_left img {
+	float: left;
+	width: 250px;
+	height: 250px;
+	border: solid gray;
+	margin: 20px;
 }
 
 home_body.popular_post.pp_right{
 	float: right;
 }
 
-home_body.pp_left{
+home_body.popular_post.pp_left{
 	float: left;
 }
 
@@ -164,7 +172,6 @@ home_body.rd_right{
 home_body.rd_left{
 	float: left;
 }
-
 
 head h1{
 	font-size: 20pt;
