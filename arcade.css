@@ -142,30 +142,38 @@ a{
 .contact strong{
 	font-size: 8pt;
 }
-.ff_right{
+
+.featured_forums img {
+	float: left;
+	width: 250px;
+	height: 250px;
+	border: solid gray;
+	margin: 25px;
+}
+
+home_body.popular_post.pp_right{
 	float: right;
 }
 
-.ff_left{
+home_body.popular_post.pp_left{
 	float: left;
 }
 
-.pp_right{
+home_body.rd_right{
 	float: right;
 }
 
-.pp_left{
+home_body.rd_left{
 	float: left;
 }
 
-.rd_right{
-	float: right;
+.head h1{
+	font-size: 20pt;
 }
 
-.rd_left{
-	float: left;
+.head h2 {
+	font-size: 13pt;
 }
-
 
 .game_list img {
 	float: left;
