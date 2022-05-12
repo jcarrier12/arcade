@@ -113,4 +113,26 @@ a{
 	text-align: center;
 }
 
-.
+.ff_right{
+	float: right;
+}
+
+.ff_left{
+	float: left;
+}
+
+.pp_right{
+	float: right;
+}
+
+.pp_left{
+	float: left;
+}
+
+.rd_right{
+	float: right;
+}
+
+.rd_left{
+	float: left;
+}
