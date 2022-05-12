@@ -33,7 +33,6 @@
 		<img src="images/minecraft.jpg" alt="icon" />
 		</a>
 		
-	
 		<a href="forum.php?=reddead2">
 		<img src="images/reddead2.jpg" alt="icon" />
 		</a>
@@ -82,5 +81,19 @@
 		<a href="forum.php?=nba2k22">
 		<img src="images/nba-2k22.jpg" alt="icon" />
 		</a>
+		
+		<a href="forum.php?=godofwar">
+		<img src="images/godofwar.jpg" alt="icon" />
+		</a>
+		
+		<a href="forum.php?=valorant">
+		<img src="images/valorant.jpg" alt="icon" />
+		</a>
+		
+		<a href="forum.php?=wiisports">
+		<img src="images/wiisports.jpg" alt="icon" />
+		</a>
 	</ul>
 </div>
+
+<?php include ("bottom.html"); ?>
