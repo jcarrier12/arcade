@@ -24,6 +24,18 @@
 			<a href="forum.php?=minecraft">
 			<img src="images/minecraft.jpg" alt="icon" />
 			</a>
+			
+			<a href="forum.php?=eldenring">
+			<img src="images/elden-ring.jpg" alt="icon" />
+			</a>
+		
+			<a href="forum.php?=gtav">
+			<img src="images/gtav.jpg" alt="icon" />
+			</a>
+		
+			<a href="forum.php?=fifa22">
+			<img src="images/fifa22.jpg" alt="icon" />
+			</a>
 		</ul>
 	</div>
 	
