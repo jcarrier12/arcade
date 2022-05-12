@@ -4,7 +4,7 @@
 
 <div class = "head">
      	<h1><strong>The Arcade</strong></h1>
-	<h2> Your one place for discussions regarding gaming</h2>
+	<h2> Your one place for discussions regarding gaming... from today's popular games to the newst games releasing!</h2>
 </div>
 
 <hr>
