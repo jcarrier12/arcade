@@ -167,12 +167,8 @@ home_body.rd_left{
 	float: left;
 }
 
-.head h1{
+.head strong{
 	font-size: 20pt;
-}
-
-.head h2 {
-	font-size: 13pt;
 }
 
 .game_list img {
