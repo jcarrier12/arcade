@@ -7,6 +7,8 @@
 	<h2> Your one place for discussions regarding gaming</h2>
 </div>
 
+<hr>
+
 <div class = "home_body">
 	<div class = "featured_forums">
 		<div class = "ff_right">
