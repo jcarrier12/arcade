@@ -16,17 +16,20 @@
 		
 			<div class = "ff_left">	
 			
+				<ul>
 				<a href="forum.php?=fortnite">
-				<p>Fortnite</p>
+				<img src="images/fortnite.jpg" alt="icon" />
 				</a>
-
+		
 				<a href="forum.php?=callofduty">
-				<p>Call of Duty</p>
+				<img src="images/cod_warzone.jpg" alt="icon" />
 				</a>
-	
+		
 				<a href="forum.php?=minecraft">
-				<p>Minecraft</p>
+				<img src="images/minecraft.jpg" alt="icon" />
 				</a>
+				</ul>	
+				
 			</div>
 		</div>
 	</div>
