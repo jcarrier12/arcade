@@ -2,7 +2,7 @@
 
 <link href = "arcade.css" rel = "stylesheet"/>
 
-<h1><strong>These are 10 of some of most popular games today!<strong></h1>
+<h1><strong>These are some of most popular games today!<strong></h1>
 <h2><strong>Click on one of the games below to enter the game's discussion forum<strong></h2>
 
 <hr>
@@ -49,6 +49,38 @@
 		
 		<a href="forum.php?=fifa22">
 		<img src="images/fifa22.jpg" alt="icon" />
+		</a>
+		
+		<a href="forum.php?=apexlegends">
+		<img src="images/apexlegends.jpg" alt="icon" />
+		</a>
+		
+		<a href="forum.php?=zeldabotw">
+		<img src="images/botw.jpg" alt="icon" />
+		</a>
+		
+		<a href="forum.php?=destiny2">
+		<img src="images/destiny2.jpg" alt="icon" />
+		</a>
+		
+		<a href="forum.php?=storm4">
+		<img src="images/nsuns4.jpg" alt="icon" />
+		</a>
+		
+		<a href="forum.php?=supersmash">
+		<img src="images/ssbu.jpg" alt="icon" />
+		</a>
+		
+		<a href="forum.php?=amongus">
+		<img src="images/among-us.jpg" alt="icon" />
+		</a>
+		
+		<a href="forum.php?=gmod">
+		<img src="images/gmod.jpg" alt="icon" />
+		</a>
+		
+		<a href="forum.php?=nba2k22">
+		<img src="images/nba-2k22.jpg" alt="icon" />
 		</a>
 	</ul>
 </div>
