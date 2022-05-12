@@ -78,6 +78,7 @@ a{
 	height: 500px;
 	margin-top: 50px;
 	margin-left: 200px;
+	margin-right: 200px;
 }
 .profile_pic_body{
 	float: left;
@@ -99,14 +100,14 @@ a{
 #bio{
 	float:right;
 	margin-right: 200px;
+	width: 300px;
 }
 #bio h1{
 	text-align: center;
 }
-#bio p{
-	height: 100px;
-	width: 100px;
-	margin: 20px;
+#bio_text{
+	width: 100em;
+	display: inline-block;
 }
 #bio h2{
 	text-align: center;
@@ -171,5 +172,60 @@ a{
 	width: 250px;
 	height: 250px;
 	border: solid gray;
-	margin: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
+
+.forum_banner{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 100%;
+	padding: 60px 0;
+	text-align: center;
+	background: blue;
+	color:white;
+	border-radius: 25px;
+}
+.forum_banner h1{
+	background: transparent;
+}
+.top_post_body{
+	border: solid;
+	border-radius: 25px;
+	margin-bottom: 20px;
+}
+.post_body{
+	margin-left: 20px;
+}
+
+#username h2{
+	font-size: small;
+}
+
+#post_title{
+	text-align: center;
+	border: solid white;
+	width: 100px;
+	height: 30px;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 25px;
+}
+
+.post_main_body{
+	border: solid white;
+	border-radius: 25px;
+	margin: 30px;
+	display: flex;
+	flex-direction: column;
+	
+}
+.post_main_text{
+	margin: 10px;
+}
+
+.post_main_body h1{
+	font-size: small;
+}
+
+

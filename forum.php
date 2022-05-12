@@ -20,31 +20,29 @@
 
     include("top.php");
 ?>
-<div class = "forum_banner">
-    <div class = "forum_name_body">
-        <div id = "forum_name">
-            <h1><?=$forum_name?></h1>
-        </div>
-    </div>
-</div>
+<section class = "forum_banner">
+    <h1>Forum name goes here</h1>
+</section>
 <!-- this is a div to contain all the post that will be featured on the forum page -->
 
 <?php
     for($i = 0; $i < 3; $i++){
         ?>
-        <div class = "top_post_body">
-            <div class = "post_body">
-                <div id = "username">
-                    <h1><?=$usernames[$i]?></h1>
-                </div>
-                <div class = "post_title">
-                    <h1><?$titles[$i]?></h1>
-                </div>
-                <div class = "post_text">
-                    <p><?=$texts[$i]?></p>
+        <a href = "http://google.com">
+            <div class = "top_post_body">
+                <div class = "post_body">
+                    <div id = "username">
+                        <h2>Wario158</h2>
+                    </div>
+                    <div class = "post_title">
+                        <h1>im dying</h1>
+                    </div>
+                    <div class = "post_text">
+                        <p>ajsdadjabdkjahjsdajhsdkjahsdkjbakjdbakjsdadassdajdnasnjdlkanksdjaskjbdjkabsjkdkhasbkd</p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </a>
         <?php
     }
 ?>

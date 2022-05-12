@@ -17,7 +17,7 @@
         </div>
         <div id = "bio">
             <h1>Bio</h1>
-            <p>absdkjhbnajdnjksahndkljabndjakdshsakjlhdljkajhskoldjakl</p>
+            <p id = "bio_text">absdkjhbnajdnjksahndkljabndjakdshsakjlhdljkajhskoldjakl</p>
             <h2>Gender: male</h2>
             <h2>Favorite Game: Minecraft</h2>
             <h2>Favorite Console: Playstation</h2>   
