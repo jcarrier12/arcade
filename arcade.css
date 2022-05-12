@@ -141,19 +141,19 @@ a{
 .contact strong{
 	font-size: 8pt;
 }
-.ff_right{
+home_body.ff_right{
 	float: right;
 }
 
-.ff_left{
+home_body.ff_left{
 	float: left;
 }
 
-.pp_right{
+home_body.pp_right{
 	float: right;
 }
 
-.pp_left{
+home_body.pp_left{
 	float: left;
 }
 
@@ -161,7 +161,7 @@ a{
 	float: right;
 }
 
-.rd_left{
+home_body.rd_left{
 	float: left;
 }
 
