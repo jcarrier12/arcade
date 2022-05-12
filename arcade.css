@@ -166,18 +166,23 @@ home_body.rd_left{
 }
 
 
-.game_list img {
-	float: left;
-	width: 250px;
-	height: 250px;
-	border: solid gray;
-	margin: 20px;
-}
-
 head h1{
 	font-size: 20pt;
 }
 
 head h2 {
 	font-size: 13pt;
+}
+
+.game_list{
+	height: 800px;
+	width: 100px;
+}
+
+.game_list img {
+	float: left;
+	width: 250px;
+	height: 250px;
+	border: solid gray;
+	margin: 20px;
 }
