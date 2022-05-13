@@ -7,9 +7,7 @@
     $posts = file($file);
     $info = explode(",", $posts[0]);
     $title = $info[0];
-    print_r($info);
     $size = sizeof($posts);
-    echo $size;
     include("top.php");
 ?>
 <section class = "forum_banner">
