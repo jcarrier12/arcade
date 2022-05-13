@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<?php
-	$logged = $_GET["isLog"];
-?>
+	<?php
+		
+	?>
 <html lang = en>
 	<!-- Web Programming, Project 4 (NerdLuv) -->
 	<!-- shared page top HTML -->

@@ -1,7 +1,4 @@
-<?php include("top.php"); 
-$user=$_GET["user"]; 
-$pass=$_GET["pass"];
-?>
+<?php include("top.php"); ?>
 <div class = "login_body">
     
     <div class = "login_box">
@@ -9,25 +6,15 @@ $pass=$_GET["pass"];
             <h1>Login</h1>
         </div>
         <div class = "login_form">
-            <form action = "login.php">
+            <form action = "loginsubmit.php">
                 <fieldset>
                     <label><strong>Username</strong></label> </br>
-                    <input type= "text" method= "get" name = "username" size = "30" id="user"> </br>
+                    <input type= "text" method= "get" name = "user" size = "30"> </br>
                     <label><strong>Password</strong></label> </br>
-                    <input type = "password" method="get" name = "password" size = "30" id="pass"> </br>
+                    <input type = "password" method="get" name = "pass" size = "30" > </br>
                     <input type = "submit" value = "Login"/>
                 </fieldset>
             </form>
-            <?php
-            $arr = file("users.txt");
-            
-            for($i = 0; $i < count(file("users.txt")); $i++){
-                $exp = explode(';','');
-                if($exp[0]== $user && $pass==$exp[2]){
-                    echo "Location: home.php";
-                }
-            }
-            ?>
         </div>
     </div>
 </div>
