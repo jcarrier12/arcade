@@ -17,6 +17,8 @@
     $usernames = array($top1_user, $top2_user, $top3_user);
     $titles = array($top2_title, $top2_title, $top3_title);
     $texts = array($top1, $top2, $top3);
+    $is_logged = $_GET["islogged"];
+    $current_user = $_GET["current user logged"];
 
     include("top.php");
 ?>
@@ -24,17 +26,23 @@
     <h1>Forum name goes here</h1>
 </section>
 <!-- this is a div to contain all the post that will be featured on the forum page -->
+<?php
+    if($is_logged){
+        ?>
+        <div class = "comment_area">
+            <form action = ""> 
+                Title:
+                <input type = "text" id>
+                <textarea class = "comment"> Type your comment here</textarea>
+                </br>
 
-<div class = "comment_area">
-        <form action = ""> 
-            <input type = "text" id>
-            <textarea class = "comment"> Type your comment here</textarea>
-            </br>
-
-            <input type = "submit" name = "comment" />
-            
-        </form>
-    </div>
+                <input type = "submit" name = "comment" />
+                
+            </form>
+        </div>
+        <?php
+    }
+?>
 
 
 <?php
