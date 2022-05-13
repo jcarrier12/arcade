@@ -1,6 +1,6 @@
 Fortnite
 image banner file path
-title,text,user,1
-title,text,user,2
-title,text,user,3
-title,text,user,4  ,4  ,4
+I Hate Building,The new update brought in NO building and it may be the best thing ever,MasterOogway,1
+Bring Back the Cube,Does anyone else miss that big purple cube?,Jonesy,2
+Ninja Sucks,Ninja is bad at Fortnite and Drake's music sucks,LtPeely,3
+This Game is the Best,I need to get me a 6 pack of Chug Splash,Inky,4  ,4  ,4
