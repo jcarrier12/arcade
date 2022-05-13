@@ -9,7 +9,7 @@
 
 <div class = "game_list">
 	<ul>
-		<a href="forum.php?=fortnite">
+		<a href="forum.php?game=fortnite">
 		<img src="images/fortnite.jpg" alt="icon" />
 		</a>
 		

@@ -1,25 +1,51 @@
-<?php include("top.php"); ?>
+<?php include("top.php"); 
+    $count = $_GET["count"];
+    $post_title;
+    $post_text;
+    $current_user;
+    $forum = $_GET["game"];
+    $file = "forums/".$forum.".txt";
+    $posts = file($file);
+    $size = sizeof($posts);
+    $text;
+    if($count > 0){
+        for($i = $size - 1; $i > 1; $i--){
+            $string = explode(",", $posts[$i]);
+            if($string[3] == $count){
+                $post_title = $string[0];
+                $post_text = $string[1];
+                $user = $string[2];
+                $text = $post_title;
+            }
+        }
+    }
+    else{
+        $post_title = $_GET["post_title"];
+        $post_text = $_GET["post_text"];
+        $user = $_GET["user_name"];
+        $forum = $_GET["forum"];
+        $count = $size - 2;
+        $text = $post_title." ".$post_text." ".$user.",".$count;
+        file_put_contents($file, $text, FILE_APPEND);
+    }
+?>
 
 
 <div class = "body">
-    <h1 id = "post_title">title</h1>
+    <h1 id = "post_title"><?=$post_title?></h1>
     <div class = "post_main_body">
         <div class = "post_main_text">
-            <h1>Wario158</h1>
+            <h1><?=$user?></h1>
             <section class = "content">
-            Generating random paragraphs ca
-            Generating random paragraphs can be an excellent way for writers to get their creative flow going at the beginning of the day. The writer has no idea what topic the random paragraph will be about when it appears. This forces the writer to use creativity to complete one of three common writing challenges. The writer can use the paragraph as the first one of a short story and build upon it. A second option is to use the random paragraph somewhere in a short story they create. The third option is to have the random paragraph be the ending paragraph in a short story. No matter which of these challenges is undertaken, the writer is forced to use creativity to incorporate the paragraph into their writing.
-            n be an excellent way for writers to get their creative flow going at the beginning of the day. The writer has no idea what topic the random paragraph will be about when it appears. This forces the writer to use creativity to complete one of three common writing challenges. The writer can use the paragraph as the first one of a short story and build upon it. A second option is to use the random paragraph somewhere in a short story they create. The third option is to have the random paragraph be the ending paragraph in a short story. No matter which of these challenges is undertaken, the writer is forced to use creativity to incorporate the paragraph into their writing.
+            <?=$post_text?>
             </section>
         </div>
     </div>
     <div class = "comment_area">
-        <form action = ""> 
-            <textarea class = "comment"> Type your comment here</textarea>
-
+        <form action = "comment_submit.php?user=<?$user?>&count=<?=$count?>"> 
+            <textarea class = "comment" name = "comment"> Type your comment here</textarea>
             </br>
-
-            <input type = "submit" name = "comment" />
+            <input type = "submit" name = "count" value = "Submit"/>
         </form>
     </div>
 

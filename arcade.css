@@ -41,7 +41,7 @@ a{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
-	border: 2px solid #3f3f3f;
+	border: 2px solid #ffffff;
 }
 .login_box{
 	padding: 48px;
@@ -51,6 +51,10 @@ a{
 }
 .login_form{
 	padding: 10px;
+}
+
+.login_form textarea{
+	margin: 10px;
 }
 
 .login_form input{
@@ -75,10 +79,12 @@ a{
 }
 
 .profile_body{
-	height: 500px;
+	height: 400px;
 	margin-top: 50px;
-	margin-left: 200px;
-	margin-right: 200px;
+	margin-left: 400px;
+	margin-right: 400px;
+	margin-bottom: 50px;
+	border: solid white;
 }
 .profile_pic_body{
 	float: left;
@@ -98,7 +104,7 @@ a{
 	margin: 20px;
 }
 #bio{
-	float:right;
+	float: right;
 	margin-right: 200px;
 	width: 300px;
 }

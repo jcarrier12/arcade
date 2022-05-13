@@ -13,27 +13,27 @@
 	<h3><strong>Top 6 Featured Forums</strong><h3>
 	<div class = "featured_forums">
 		<ul>
-			<a href="forum.php?=fortnite">
+			<a href="forum.php?game=fortnite">
 			<img src="images/fortnite.jpg" alt="icon" />
 			</a>
 		
-			<a href="forum.php?=callofduty">
+			<a href="forum.php?game=callofduty">
 			<img src="images/cod_warzone.jpg" alt="icon" />
 			</a>
 		
-			<a href="forum.php?=minecraft">
+			<a href="forum.php?game=minecraft">
 			<img src="images/minecraft.jpg" alt="icon" />
 			</a>
 			
-			<a href="forum.php?=eldenring">
+			<a href="forum.php?game=eldenring">
 			<img src="images/elden-ring.jpg" alt="icon" />
 			</a>
 		
-			<a href="forum.php?=gtav">
+			<a href="forum.php?game=gtav">
 			<img src="images/gtav.jpg" alt="icon" />
 			</a>
 		
-			<a href="forum.php?=fifa22">
+			<a href="forum.php?game=fifa22">
 			<img src="images/fifa22.jpg" alt="icon" />
 			</a>
 			
