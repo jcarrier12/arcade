@@ -219,14 +219,13 @@ home_body.rd_left{
 #post_title{
 	text-align: center;
 	border: solid white;
-	width: 100px;
+	width: 200px;
 	height: 30px;
 	margin: auto;
 	margin-top: 20px;
 	border-radius: 25px;
 	display: flex;
-	flex-direction: column;
-	min-height: 200px;	
+	flex-direction: column;	
 }
 
 .post_main_body{
