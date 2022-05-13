@@ -1,4 +1,4 @@
-Fornite
+Fortnite
 image banner file path
 title,text,user,1
 title,text,user,2
