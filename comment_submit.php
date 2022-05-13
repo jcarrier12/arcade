@@ -1,9 +1,13 @@
 <?php
-    $user = $_GET["user"];
+    include("top.php");
+?>
+
+
+<?php
     $comment = $_GET["comment"];
     $game =  $_GET["game"];
     $file = $game."_".$count.".txt";
-    $text = $user.",".$comment;
+    $text = $username.",".$comment;
     file_put_contents($file, $text);
 ?>
 

@@ -3,7 +3,7 @@
     $post_title;
     $post_text;
     $current_user;
-    $forum = $_GET["game"];
+    $forum = $_GET["forum"];
     $file = "forums/".$forum.".txt";
     $posts = file($file);
     $size = sizeof($posts);

@@ -20,7 +20,8 @@
     //if($is_logged){
         ?>
         <div class = "comment_area">
-            <form action = "post.php?forum=<?=$game?>"> 
+            <form action = "post.php"> 
+                <input type = "hidden" name = "forum" value = "<?=$game?>">
                 <input type = "text" name = "post_title" value = "post title" maxlength="10" > 
                 <textarea class = "comment" name = "post_text"> Type your comment here</textarea>
                 </br>
@@ -36,7 +37,7 @@
     for($i = $size - 1; $i > 1; $i--){
         $string = explode(",", $posts[$i]);
         ?>
-        <a href = "post.php?count=<?=$i - 1?>&game=<?=$game?>">
+        <a href = "post.php?count=<?=$i - 1?>&forum=<?=$game?>">
             <div class = "top_post_body">
                 <div class = "post_body">
                     <div id = "username">
