@@ -43,18 +43,6 @@
 	</br>
 	<hr>
 	
-	<div class = "popular_post">
-		<div class = "pp_right">
-		<h3><strong>Popular Post of the Day</strong><h3>
-		</div>
-			
-		<div class = "pp_left"
-		<!--We need a random post here-->
-		</div>
-	</div>
-	
-	<hr>
-	
 	<div class = "release_dates">
 		<div class = "rd_right">
 		<p><strong>15 Upcoming Games</strong></p>
