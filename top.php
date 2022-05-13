@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 	<?php
-		
+		error_reporting(E_ERROR | E_PARSE);
+		$ar = file("users/".$_GET["user"]."txt");
+		if(file_exists("users/".$_GET["user"]."txt")&&$ar[0]==1){
+			$username = $_GET["user"];
+			$logged = true;
+		}
 	?>
 <html lang = en>
 	<!-- Web Programming, Project 4 (NerdLuv) -->

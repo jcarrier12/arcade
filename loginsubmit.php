@@ -8,11 +8,11 @@
         $exp = explode(";",$arr[$i]);
         echo $exp[0];
         if($exp[0]== $user && $pass==$exp[2]){
-            echo "right";
-            
+            $myfile = fopen( "users/".$user.".txt", "w");
+            fwrite($myfile, 1);    
+            header("Location: home.php");   
         }
         else{
-            echo "wrong";
             header("login.php");
         }
     }
