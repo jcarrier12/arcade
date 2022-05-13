@@ -17,23 +17,23 @@
 		<img src="images/cod_warzone.jpg" alt="icon" />
 		</a>
 		
-		<a href="forum.php?=pubg">
+		<a href="forum.php?game=pubg">
 		<img src="images/pubg.jpg" alt="icon" />
 		</a>
 
-		<a href="forum.php?=forza5">
+		<a href="forum.php?game=forza5">
 		<img src="images/forza5.jpg" alt="icon" />
 		</a>
 		
-		<a href="forum.php?=csgo">
+		<a href="forum.php?game=csgo">
 		<img src="images/csgo.jpg" alt="icon" />
 		</a>
 			
-		<a href="forum.php?=minecraft">
+		<a href="forum.php?game=minecraft">
 		<img src="images/minecraft.jpg" alt="icon" />
 		</a>
 		
-		<a href="forum.php?=reddead2">
+		<a href="forum.php?game=reddead2">
 		<img src="images/reddead2.jpg" alt="icon" />
 		</a>
 		
